@@ -1,0 +1,12 @@
+C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_adc.h:4161:22:LL_ADC_DisableInternalRegulator	1
+C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_adc.h:4232:26:LL_ADC_IsEnabled	2
+C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_adc.h:4292:26:LL_ADC_IsCalibrationOnGoing	2
+C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_adc.h:4359:26:LL_ADC_REG_IsConversionOngoing	2
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_adc_ex.c:101:19:HAL_ADCEx_Calibration_Start	6
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_adc_ex.c:186:10:HAL_ADCEx_Calibration_GetValue	2
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_adc_ex.c:202:19:HAL_ADCEx_Calibration_SetValue	6
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_adc_ex.c:245:13:HAL_ADCEx_LevelOutOfWindow2Callback	1
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_adc_ex.c:260:13:HAL_ADCEx_LevelOutOfWindow3Callback	1
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_adc_ex.c:276:13:HAL_ADCEx_EndOfSamplingCallback	1
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_adc_ex.c:291:13:HAL_ADCEx_LDOReadyCallback	1
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_hal_adc_ex.c:314:19:HAL_ADCEx_DisableVoltageRegulator	3
