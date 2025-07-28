@@ -1,6 +1,6 @@
 Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo.o: \
- D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo.c \
- D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo.h \
+ D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo.c \
+ D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo.h \
  ../../Core/Inc/stm32wbaxx_nucleo_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal.h \
  ../../Core/Inc/stm32wbaxx_hal_conf.h \
@@ -39,8 +39,8 @@ Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo.o: \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_rtc_ex.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_uart.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_uart_ex.h \
- D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo_errno.h
-D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo.h:
+ D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo_errno.h
+D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo.h:
 ../../Core/Inc/stm32wbaxx_nucleo_conf.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal.h:
 ../../Core/Inc/stm32wbaxx_hal_conf.h:
@@ -79,4 +79,4 @@ C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_rtc_ex.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_uart.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_uart_ex.h:
-D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo_errno.h:
+D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Drivers/BSP/STM32WBAxx_Nucleo/stm32wbaxx_nucleo_errno.h:

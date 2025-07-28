@@ -1,2 +1,2 @@
-D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/host_stack_if.c:53:6:HostStack_Process	8	static
-D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/host_stack_if.c:72:6:BleStackCB_Process	8	static
+D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/host_stack_if.c:53:6:HostStack_Process	8	static
+D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/host_stack_if.c:72:6:BleStackCB_Process	8	static

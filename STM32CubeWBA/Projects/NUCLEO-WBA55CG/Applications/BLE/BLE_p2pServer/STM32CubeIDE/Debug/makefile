@@ -86,8 +86,8 @@ all: main-build
 main-build: BLE_p2pServer.elf secondary-outputs
 
 # Tool invocations
-BLE_p2pServer.elf BLE_p2pServer.map: $(OBJS) $(USER_OBJS) D:\Companies\Migration\STMBLEEVK\STM32CubeWBA\Projects\NUCLEO-WBA55CG\Applications\BLE\BLE_p2pServer\STM32CubeIDE\STM32WBA55CGUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "BLE_p2pServer.elf" @"objects.list" $(USER_OBJS) -Wl,--start-group $(LIBS) -Wl,--end-group -mcpu=cortex-m33 -T"D:\Companies\Migration\STMBLEEVK\STM32CubeWBA\Projects\NUCLEO-WBA55CG\Applications\BLE\BLE_p2pServer\STM32CubeIDE\STM32WBA55CGUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BLE_p2pServer.map" -Wl,--gc-sections -static -LC:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/lib -LC:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/stack/lib -z noexecstack --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+BLE_p2pServer.elf BLE_p2pServer.map: $(OBJS) $(USER_OBJS) D:\Companies\Migration\STMBLEEVK\STMBLEPROJ\STM32CubeWBA\Projects\NUCLEO-WBA55CG\Applications\BLE\BLE_p2pServer\STM32CubeIDE\STM32WBA55CGUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "BLE_p2pServer.elf" @"objects.list" $(USER_OBJS) -Wl,--start-group $(LIBS) -Wl,--end-group -mcpu=cortex-m33 -T"D:\Companies\Migration\STMBLEEVK\STMBLEPROJ\STM32CubeWBA\Projects\NUCLEO-WBA55CG\Applications\BLE\BLE_p2pServer\STM32CubeIDE\STM32WBA55CGUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BLE_p2pServer.map" -Wl,--gc-sections -static -LC:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/lib -LC:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/stack/lib -z noexecstack --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

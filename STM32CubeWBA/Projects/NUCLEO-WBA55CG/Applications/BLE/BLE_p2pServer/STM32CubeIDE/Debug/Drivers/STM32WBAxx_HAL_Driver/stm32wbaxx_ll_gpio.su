@@ -6,6 +6,6 @@ C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_gpio.h:644:22:LL_GPIO_SetAFPin_8_15	48	static,ignoring_inline_asm
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_bus.h:787:22:LL_AHB2_GRP1_ForceReset	16	static
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_bus.h:845:22:LL_AHB2_GRP1_ReleaseReset	16	static
-D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_gpio.c:107:13:LL_GPIO_DeInit	24	static
-D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_gpio.c:173:13:LL_GPIO_Init	40	static,ignoring_inline_asm
-D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_gpio.c:246:6:LL_GPIO_StructInit	16	static
+D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_gpio.c:107:13:LL_GPIO_DeInit	24	static
+D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_gpio.c:173:13:LL_GPIO_Init	40	static,ignoring_inline_asm
+D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_gpio.c:246:6:LL_GPIO_StructInit	16	static

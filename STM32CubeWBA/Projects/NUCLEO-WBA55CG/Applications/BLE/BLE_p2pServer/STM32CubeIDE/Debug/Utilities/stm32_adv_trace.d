@@ -1,6 +1,6 @@
 Utilities/stm32_adv_trace.o: \
- D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Utilities/trace/adv_trace/stm32_adv_trace.c \
- D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Utilities/trace/adv_trace/stm32_adv_trace.h \
+ D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Utilities/trace/adv_trace/stm32_adv_trace.c \
+ D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Utilities/trace/adv_trace/stm32_adv_trace.h \
  ../../Core/Inc/utilities_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_compiler.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_gcc.h \
@@ -56,7 +56,7 @@ Utilities/stm32_adv_trace.o: \
  ../../Core/Inc/utilities_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_mem.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_tiny_vsnprintf.h
-D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Utilities/trace/adv_trace/stm32_adv_trace.h:
+D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Utilities/trace/adv_trace/stm32_adv_trace.h:
 ../../Core/Inc/utilities_conf.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_compiler.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_gcc.h:
