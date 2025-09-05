@@ -121,28 +121,28 @@ do {\
  The following 128bits UUIDs have been generated from the random UUID
  generator:
  F364000000B04240BA5005CA45BF8ABC: Service 128bits UUID
- 000000018E2245419D4C21EDAE82ED19: Characteristic 128bits UUID
- 000000028E2245419D4C21EDAE82ED19: Characteristic 128bits UUID
- 000000038E2245419D4C21EDAE82ED19: Characteristic 128bits UUID
- 000000048E2245419D4C21EDAE82ED19: Characteristic 128bits UUID
- 000000058E2245419D4C21EDAE82ED19: Characteristic 128bits UUID
- 000000068E2245419D4C21EDAE82ED19: Characteristic 128bits UUID
- 000000078E2245419D4C21EDAE82ED19: Characteristic 128bits UUID
- 000000088E2245419D4C21EDAE82ED19: Characteristic 128bits UUID
- 000000098E2245419D4C21EDAE82ED19: Characteristic 128bits UUID
- 0000000A8E2245419D4C21EDAE82ED19: Characteristic 128bits UUID
+ F364000100B04240BA5005CA45BF8ABC: Characteristic 128bits UUID
+ F364000200B04240BA5005CA45BF8ABC: Characteristic 128bits UUID
+ F364000300B04240BA5005CA45BF8ABC: Characteristic 128bits UUID
+ F364000400B04240BA5005CA45BF8ABC: Characteristic 128bits UUID
+ F364000500B04240BA5005CA45BF8ABC: Characteristic 128bits UUID
+ F364000600B04240BA5005CA45BF8ABC: Characteristic 128bits UUID
+ F364000700B04240BA5005CA45BF8ABC: Characteristic 128bits UUID
+ F364000800B04240BA5005CA45BF8ABC: Characteristic 128bits UUID
+ F364000900B04240BA5005CA45BF8ABC: Characteristic 128bits UUID
+ F364000A00B04240BA5005CA45BF8ABC: Characteristic 128bits UUID
  */
 #define COPY_P2P_SERVER_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x00,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
-#define COPY_MID_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0x00,0x00,0x00,0x01,0x8e,0x22,0x45,0x41,0x9d,0x4c,0x21,0xed,0xae,0x82,0xed,0x19)
-#define COPY_PRODNAME_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0x00,0x00,0x00,0x02,0x8e,0x22,0x45,0x41,0x9d,0x4c,0x21,0xed,0xae,0x82,0xed,0x19)
-#define COPY_SLNM_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0x00,0x00,0x00,0x03,0x8e,0x22,0x45,0x41,0x9d,0x4c,0x21,0xed,0xae,0x82,0xed,0x19)
-#define COPY_DEVLOC_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0x00,0x00,0x00,0x04,0x8e,0x22,0x45,0x41,0x9d,0x4c,0x21,0xed,0xae,0x82,0xed,0x19)
-#define COPY_DS_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0x00,0x00,0x00,0x05,0x8e,0x22,0x45,0x41,0x9d,0x4c,0x21,0xed,0xae,0x82,0xed,0x19)
-#define COPY_DEVMKE_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0x00,0x00,0x00,0x06,0x8e,0x22,0x45,0x41,0x9d,0x4c,0x21,0xed,0xae,0x82,0xed,0x19)
-#define COPY_DEVMAC_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0x00,0x00,0x00,0x07,0x8e,0x22,0x45,0x41,0x9d,0x4c,0x21,0xed,0xae,0x82,0xed,0x19)
-#define COPY_BLESTKFW_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0x00,0x00,0x00,0x08,0x8e,0x22,0x45,0x41,0x9d,0x4c,0x21,0xed,0xae,0x82,0xed,0x19)
-#define COPY_APPFW_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0x00,0x00,0x00,0x09,0x8e,0x22,0x45,0x41,0x9d,0x4c,0x21,0xed,0xae,0x82,0xed,0x19)
-#define COPY_ADVNAME_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0x00,0x00,0x00,0x0a,0x8e,0x22,0x45,0x41,0x9d,0x4c,0x21,0xed,0xae,0x82,0xed,0x19)
+#define COPY_MID_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x01,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
+#define COPY_PRODNAME_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x02,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
+#define COPY_SLNM_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x03,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
+#define COPY_DEVLOC_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x04,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
+#define COPY_DS_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x05,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
+#define COPY_DEVMKE_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x06,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
+#define COPY_DEVMAC_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x07,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
+#define COPY_BLESTKFW_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x08,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
+#define COPY_APPFW_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x09,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
+#define COPY_ADVNAME_UUID(uuid_struct)       COPY_UUID_128(uuid_struct,0xf3,0x64,0x00,0x0a,0x00,0xb0,0x42,0x40,0xba,0x50,0x05,0xca,0x45,0xbf,0x8a,0xbc)
 
 /* USER CODE BEGIN PF */
 
@@ -184,446 +184,18 @@ static SVCCTL_EvtAckStatus_t P2P_SERVER_EventHandler(void *p_Event)
           notification.AttributeHandle          = p_attribute_modified->Attr_Handle;
           notification.DataTransfered.Length    = p_attribute_modified->Attr_Data_Length;
           notification.DataTransfered.p_Payload = p_attribute_modified->Attr_Data;
-          if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.MidCharHdle + CHARACTERISTIC_DESCRIPTOR_ATTRIBUTE_OFFSET))
+          if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.MidCharHdle + CHARACTERISTIC_VALUE_ATTRIBUTE_OFFSET))
           {
             return_value = SVCCTL_EvtAckFlowEnable;
-            /* USER CODE BEGIN Service1_Char_1 */
 
-            /* USER CODE END Service1_Char_1 */
-            switch(p_attribute_modified->Attr_Data[0])
-            {
-              /* USER CODE BEGIN Service1_Char_1_attribute_modified */
-
-              /* USER CODE END Service1_Char_1_attribute_modified */
-
-              /* Disabled Notification management */
-              case (0x00):
-                /* USER CODE BEGIN Service1_Char_1_Disabled_BEGIN */
-
-                /* USER CODE END Service1_Char_1_Disabled_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_MID_NOTIFY_DISABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_1_Disabled_END */
-
-                /* USER CODE END Service1_Char_1_Disabled_END */
-                break;
-
-              /* Enabled Notification management */
-              case GATT_CHAR_UPDATE_SEND_NOTIFICATION:
-                /* USER CODE BEGIN Service1_Char_1_COMSVC_Notification_BEGIN */
-
-                /* USER CODE END Service1_Char_1_COMSVC_Notification_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_MID_NOTIFY_ENABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_1_COMSVC_Notification_END */
-
-                /* USER CODE END Service1_Char_1_COMSVC_Notification_END */
-                break;
-
-              default:
-                /* USER CODE BEGIN Service1_Char_1_default */
-
-                /* USER CODE END Service1_Char_1_default */
-                break;
-            }
+            notification.EvtOpcode = P2P_SERVER_MID_WRITE_EVT;
+            /* USER CODE BEGIN Service1_Char_1_ACI_GATT_ATTRIBUTE_MODIFIED_VSEVT_CODE */
+            LOG_INFO_APP("-- GATT : MID CONFIGURATION RECEIVED\n");
+            notification.DataTransfered.Length = p_attribute_modified->Attr_Data_Length;
+            notification.DataTransfered.p_Payload = p_attribute_modified->Attr_Data;
+            /* USER CODE END Service1_Char_1_ACI_GATT_ATTRIBUTE_MODIFIED_VSEVT_CODE */
+            P2P_SERVER_Notification(&notification);
           }
-
-          else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.ProdnameCharHdle + CHARACTERISTIC_DESCRIPTOR_ATTRIBUTE_OFFSET))
-          {
-            return_value = SVCCTL_EvtAckFlowEnable;
-            /* USER CODE BEGIN Service1_Char_2 */
-
-            /* USER CODE END Service1_Char_2 */
-            switch(p_attribute_modified->Attr_Data[0])
-            {
-              /* USER CODE BEGIN Service1_Char_2_attribute_modified */
-
-              /* USER CODE END Service1_Char_2_attribute_modified */
-
-              /* Disabled Notification management */
-              case (0x00):
-                /* USER CODE BEGIN Service1_Char_2_Disabled_BEGIN */
-
-                /* USER CODE END Service1_Char_2_Disabled_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_PRODNAME_NOTIFY_DISABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_2_Disabled_END */
-
-                /* USER CODE END Service1_Char_2_Disabled_END */
-                break;
-
-              /* Enabled Notification management */
-              case GATT_CHAR_UPDATE_SEND_NOTIFICATION:
-                /* USER CODE BEGIN Service1_Char_2_COMSVC_Notification_BEGIN */
-
-                /* USER CODE END Service1_Char_2_COMSVC_Notification_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_PRODNAME_NOTIFY_ENABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_2_COMSVC_Notification_END */
-
-                /* USER CODE END Service1_Char_2_COMSVC_Notification_END */
-                break;
-
-              default:
-                /* USER CODE BEGIN Service1_Char_2_default */
-
-                /* USER CODE END Service1_Char_2_default */
-                break;
-            }
-          }
-
-          else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.SlnmCharHdle + CHARACTERISTIC_DESCRIPTOR_ATTRIBUTE_OFFSET))
-          {
-            return_value = SVCCTL_EvtAckFlowEnable;
-            /* USER CODE BEGIN Service1_Char_3 */
-
-            /* USER CODE END Service1_Char_3 */
-            switch(p_attribute_modified->Attr_Data[0])
-            {
-              /* USER CODE BEGIN Service1_Char_3_attribute_modified */
-
-              /* USER CODE END Service1_Char_3_attribute_modified */
-
-              /* Disabled Notification management */
-              case (0x00):
-                /* USER CODE BEGIN Service1_Char_3_Disabled_BEGIN */
-
-                /* USER CODE END Service1_Char_3_Disabled_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_SLNM_NOTIFY_DISABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_3_Disabled_END */
-
-                /* USER CODE END Service1_Char_3_Disabled_END */
-                break;
-
-              /* Enabled Notification management */
-              case GATT_CHAR_UPDATE_SEND_NOTIFICATION:
-                /* USER CODE BEGIN Service1_Char_3_COMSVC_Notification_BEGIN */
-
-                /* USER CODE END Service1_Char_3_COMSVC_Notification_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_SLNM_NOTIFY_ENABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_3_COMSVC_Notification_END */
-
-                /* USER CODE END Service1_Char_3_COMSVC_Notification_END */
-                break;
-
-              default:
-                /* USER CODE BEGIN Service1_Char_3_default */
-
-                /* USER CODE END Service1_Char_3_default */
-                break;
-            }
-          }
-
-          else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.DevlocCharHdle + CHARACTERISTIC_DESCRIPTOR_ATTRIBUTE_OFFSET))
-          {
-            return_value = SVCCTL_EvtAckFlowEnable;
-            /* USER CODE BEGIN Service1_Char_4 */
-
-            /* USER CODE END Service1_Char_4 */
-            switch(p_attribute_modified->Attr_Data[0])
-            {
-              /* USER CODE BEGIN Service1_Char_4_attribute_modified */
-
-              /* USER CODE END Service1_Char_4_attribute_modified */
-
-              /* Disabled Notification management */
-              case (0x00):
-                /* USER CODE BEGIN Service1_Char_4_Disabled_BEGIN */
-
-                /* USER CODE END Service1_Char_4_Disabled_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_DEVLOC_NOTIFY_DISABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_4_Disabled_END */
-
-                /* USER CODE END Service1_Char_4_Disabled_END */
-                break;
-
-              /* Enabled Notification management */
-              case GATT_CHAR_UPDATE_SEND_NOTIFICATION:
-                /* USER CODE BEGIN Service1_Char_4_COMSVC_Notification_BEGIN */
-
-                /* USER CODE END Service1_Char_4_COMSVC_Notification_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_DEVLOC_NOTIFY_ENABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_4_COMSVC_Notification_END */
-
-                /* USER CODE END Service1_Char_4_COMSVC_Notification_END */
-                break;
-
-              default:
-                /* USER CODE BEGIN Service1_Char_4_default */
-
-                /* USER CODE END Service1_Char_4_default */
-                break;
-            }
-          }
-
-          else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.DsCharHdle + CHARACTERISTIC_DESCRIPTOR_ATTRIBUTE_OFFSET))
-          {
-            return_value = SVCCTL_EvtAckFlowEnable;
-            /* USER CODE BEGIN Service1_Char_5 */
-
-            /* USER CODE END Service1_Char_5 */
-            switch(p_attribute_modified->Attr_Data[0])
-            {
-              /* USER CODE BEGIN Service1_Char_5_attribute_modified */
-
-              /* USER CODE END Service1_Char_5_attribute_modified */
-
-              /* Disabled Notification management */
-              case (0x00):
-                /* USER CODE BEGIN Service1_Char_5_Disabled_BEGIN */
-
-                /* USER CODE END Service1_Char_5_Disabled_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_DS_NOTIFY_DISABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_5_Disabled_END */
-
-                /* USER CODE END Service1_Char_5_Disabled_END */
-                break;
-
-              /* Enabled Notification management */
-              case GATT_CHAR_UPDATE_SEND_NOTIFICATION:
-                /* USER CODE BEGIN Service1_Char_5_COMSVC_Notification_BEGIN */
-
-                /* USER CODE END Service1_Char_5_COMSVC_Notification_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_DS_NOTIFY_ENABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_5_COMSVC_Notification_END */
-
-                /* USER CODE END Service1_Char_5_COMSVC_Notification_END */
-                break;
-
-              default:
-                /* USER CODE BEGIN Service1_Char_5_default */
-
-                /* USER CODE END Service1_Char_5_default */
-                break;
-            }
-          }
-
-          else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.DevmkeCharHdle + CHARACTERISTIC_DESCRIPTOR_ATTRIBUTE_OFFSET))
-          {
-            return_value = SVCCTL_EvtAckFlowEnable;
-            /* USER CODE BEGIN Service1_Char_6 */
-
-            /* USER CODE END Service1_Char_6 */
-            switch(p_attribute_modified->Attr_Data[0])
-            {
-              /* USER CODE BEGIN Service1_Char_6_attribute_modified */
-
-              /* USER CODE END Service1_Char_6_attribute_modified */
-
-              /* Disabled Notification management */
-              case (0x00):
-                /* USER CODE BEGIN Service1_Char_6_Disabled_BEGIN */
-
-                /* USER CODE END Service1_Char_6_Disabled_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_DEVMKE_NOTIFY_DISABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_6_Disabled_END */
-
-                /* USER CODE END Service1_Char_6_Disabled_END */
-                break;
-
-              /* Enabled Notification management */
-              case GATT_CHAR_UPDATE_SEND_NOTIFICATION:
-                /* USER CODE BEGIN Service1_Char_6_COMSVC_Notification_BEGIN */
-
-                /* USER CODE END Service1_Char_6_COMSVC_Notification_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_DEVMKE_NOTIFY_ENABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_6_COMSVC_Notification_END */
-
-                /* USER CODE END Service1_Char_6_COMSVC_Notification_END */
-                break;
-
-              default:
-                /* USER CODE BEGIN Service1_Char_6_default */
-
-                /* USER CODE END Service1_Char_6_default */
-                break;
-            }
-          }
-
-          else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.DevmacCharHdle + CHARACTERISTIC_DESCRIPTOR_ATTRIBUTE_OFFSET))
-          {
-            return_value = SVCCTL_EvtAckFlowEnable;
-            /* USER CODE BEGIN Service1_Char_7 */
-
-            /* USER CODE END Service1_Char_7 */
-            switch(p_attribute_modified->Attr_Data[0])
-            {
-              /* USER CODE BEGIN Service1_Char_7_attribute_modified */
-
-              /* USER CODE END Service1_Char_7_attribute_modified */
-
-              /* Disabled Notification management */
-              case (0x00):
-                /* USER CODE BEGIN Service1_Char_7_Disabled_BEGIN */
-
-                /* USER CODE END Service1_Char_7_Disabled_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_DEVMAC_NOTIFY_DISABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_7_Disabled_END */
-
-                /* USER CODE END Service1_Char_7_Disabled_END */
-                break;
-
-              /* Enabled Notification management */
-              case GATT_CHAR_UPDATE_SEND_NOTIFICATION:
-                /* USER CODE BEGIN Service1_Char_7_COMSVC_Notification_BEGIN */
-
-                /* USER CODE END Service1_Char_7_COMSVC_Notification_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_DEVMAC_NOTIFY_ENABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_7_COMSVC_Notification_END */
-
-                /* USER CODE END Service1_Char_7_COMSVC_Notification_END */
-                break;
-
-              default:
-                /* USER CODE BEGIN Service1_Char_7_default */
-
-                /* USER CODE END Service1_Char_7_default */
-                break;
-            }
-          }
-
-          else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.BlestkfwCharHdle + CHARACTERISTIC_DESCRIPTOR_ATTRIBUTE_OFFSET))
-          {
-            return_value = SVCCTL_EvtAckFlowEnable;
-            /* USER CODE BEGIN Service1_Char_8 */
-
-            /* USER CODE END Service1_Char_8 */
-            switch(p_attribute_modified->Attr_Data[0])
-            {
-              /* USER CODE BEGIN Service1_Char_8_attribute_modified */
-
-              /* USER CODE END Service1_Char_8_attribute_modified */
-
-              /* Disabled Notification management */
-              case (0x00):
-                /* USER CODE BEGIN Service1_Char_8_Disabled_BEGIN */
-
-                /* USER CODE END Service1_Char_8_Disabled_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_BLESTKFW_NOTIFY_DISABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_8_Disabled_END */
-
-                /* USER CODE END Service1_Char_8_Disabled_END */
-                break;
-
-              /* Enabled Notification management */
-              case GATT_CHAR_UPDATE_SEND_NOTIFICATION:
-                /* USER CODE BEGIN Service1_Char_8_COMSVC_Notification_BEGIN */
-
-                /* USER CODE END Service1_Char_8_COMSVC_Notification_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_BLESTKFW_NOTIFY_ENABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_8_COMSVC_Notification_END */
-
-                /* USER CODE END Service1_Char_8_COMSVC_Notification_END */
-                break;
-
-              default:
-                /* USER CODE BEGIN Service1_Char_8_default */
-
-                /* USER CODE END Service1_Char_8_default */
-                break;
-            }
-          }
-
-          else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.AppfwCharHdle + CHARACTERISTIC_DESCRIPTOR_ATTRIBUTE_OFFSET))
-          {
-            return_value = SVCCTL_EvtAckFlowEnable;
-            /* USER CODE BEGIN Service1_Char_9 */
-
-            /* USER CODE END Service1_Char_9 */
-            switch(p_attribute_modified->Attr_Data[0])
-            {
-              /* USER CODE BEGIN Service1_Char_9_attribute_modified */
-
-              /* USER CODE END Service1_Char_9_attribute_modified */
-
-              /* Disabled Notification management */
-              case (0x00):
-                /* USER CODE BEGIN Service1_Char_9_Disabled_BEGIN */
-
-                /* USER CODE END Service1_Char_9_Disabled_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_APPFW_NOTIFY_DISABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_9_Disabled_END */
-
-                /* USER CODE END Service1_Char_9_Disabled_END */
-                break;
-
-              /* Enabled Notification management */
-              case GATT_CHAR_UPDATE_SEND_NOTIFICATION:
-                /* USER CODE BEGIN Service1_Char_9_COMSVC_Notification_BEGIN */
-
-                /* USER CODE END Service1_Char_9_COMSVC_Notification_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_APPFW_NOTIFY_ENABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_9_COMSVC_Notification_END */
-
-                /* USER CODE END Service1_Char_9_COMSVC_Notification_END */
-                break;
-
-              default:
-                /* USER CODE BEGIN Service1_Char_9_default */
-
-                /* USER CODE END Service1_Char_9_default */
-                break;
-            }
-          }
-
-          else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.AdvnameCharHdle + CHARACTERISTIC_DESCRIPTOR_ATTRIBUTE_OFFSET))
-          {
-            return_value = SVCCTL_EvtAckFlowEnable;
-            /* USER CODE BEGIN Service1_Char_10 */
-
-            /* USER CODE END Service1_Char_10 */
-            switch(p_attribute_modified->Attr_Data[0])
-            {
-              /* USER CODE BEGIN Service1_Char_10_attribute_modified */
-
-              /* USER CODE END Service1_Char_10_attribute_modified */
-
-              /* Disabled Notification management */
-              case (0x00):
-                /* USER CODE BEGIN Service1_Char_10_Disabled_BEGIN */
-
-                /* USER CODE END Service1_Char_10_Disabled_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_ADVNAME_NOTIFY_DISABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_10_Disabled_END */
-
-                /* USER CODE END Service1_Char_10_Disabled_END */
-                break;
-
-              /* Enabled Notification management */
-              case GATT_CHAR_UPDATE_SEND_NOTIFICATION:
-                /* USER CODE BEGIN Service1_Char_10_COMSVC_Notification_BEGIN */
-
-                /* USER CODE END Service1_Char_10_COMSVC_Notification_BEGIN */
-                notification.EvtOpcode = P2P_SERVER_ADVNAME_NOTIFY_ENABLED_EVT;
-                P2P_SERVER_Notification(&notification);
-                /* USER CODE BEGIN Service1_Char_10_COMSVC_Notification_END */
-
-                /* USER CODE END Service1_Char_10_COMSVC_Notification_END */
-                break;
-
-              default:
-                /* USER CODE BEGIN Service1_Char_10_default */
-
-                /* USER CODE END Service1_Char_10_default */
-                break;
-            }
-          }
-
           else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.DevlocCharHdle + CHARACTERISTIC_VALUE_ATTRIBUTE_OFFSET))
           {
             return_value = SVCCTL_EvtAckFlowEnable;
@@ -658,6 +230,18 @@ static SVCCTL_EvtAckStatus_t P2P_SERVER_EventHandler(void *p_Event)
             notification.DataTransfered.Length = p_attribute_modified->Attr_Data_Length;
             notification.DataTransfered.p_Payload = p_attribute_modified->Attr_Data;
             /* USER CODE END Service1_Char_6_ACI_GATT_ATTRIBUTE_MODIFIED_VSEVT_CODE */
+            P2P_SERVER_Notification(&notification);
+          }
+          else if(p_attribute_modified->Attr_Handle == (P2P_SERVER_Context.AdvnameCharHdle + CHARACTERISTIC_VALUE_ATTRIBUTE_OFFSET))
+          {
+            return_value = SVCCTL_EvtAckFlowEnable;
+
+            notification.EvtOpcode = P2P_SERVER_ADVNAME_WRITE_EVT;
+            /* USER CODE BEGIN Service1_Char_10_ACI_GATT_ATTRIBUTE_MODIFIED_VSEVT_CODE */
+            LOG_INFO_APP("-- GATT : ADVNAME CONFIGURATION RECEIVED\n");
+            notification.DataTransfered.Length = p_attribute_modified->Attr_Data_Length;
+            notification.DataTransfered.p_Payload = p_attribute_modified->Attr_Data;
+            /* USER CODE END Service1_Char_10_ACI_GATT_ATTRIBUTE_MODIFIED_VSEVT_CODE */
             P2P_SERVER_Notification(&notification);
           }
 
@@ -755,6 +339,20 @@ static SVCCTL_EvtAckStatus_t P2P_SERVER_EventHandler(void *p_Event)
             notification.EvtOpcode = P2P_SERVER_DEVMKE_READ_EVT;
             P2P_SERVER_Notification(&notification);
             /*USER CODE END Service1_Char_6_ACI_GATT_READ_PERMIT_REQ_VSEVT_CODE_2*/
+          }
+          else if(p_read_req->Attribute_Handle == (P2P_SERVER_Context.DevmacCharHdle + CHARACTERISTIC_VALUE_ATTRIBUTE_OFFSET))
+          {
+            return_value = SVCCTL_EvtAckFlowEnable;
+            /*USER CODE BEGIN Service1_Char_7_ACI_GATT_READ_PERMIT_REQ_VSEVT_CODE_1 */
+
+            /*USER CODE END Service1_Char_7_ACI_GATT_READ_PERMIT_REQ_VSEVT_CODE_1*/
+
+            /*USER CODE BEGIN Service1_Char_7_ACI_GATT_READ_PERMIT_REQ_VSEVT_CODE_2 */
+//#warning user shall call aci_gatt_allow_read() function if allowed
+            aci_gatt_allow_read(p_read_req->Connection_Handle);
+            notification.EvtOpcode = P2P_SERVER_DEVMAC_READ_EVT;
+            P2P_SERVER_Notification(&notification);
+            /*USER CODE END Service1_Char_7_ACI_GATT_READ_PERMIT_REQ_VSEVT_CODE_2*/
           }
           else if(p_read_req->Attribute_Handle == (P2P_SERVER_Context.AppfwCharHdle + CHARACTERISTIC_VALUE_ATTRIBUTE_OFFSET))
           {
@@ -907,21 +505,11 @@ void P2P_SERVER_Init(void)
    *                                2 for BLESTKFW +
    *                                2 for APPFW +
    *                                2 for ADVNAME +
-   *                                1 for MID configuration descriptor +
-   *                                1 for PRODNAME configuration descriptor +
-   *                                1 for SLNM configuration descriptor +
-   *                                1 for DEVLOC configuration descriptor +
-   *                                1 for DS configuration descriptor +
-   *                                1 for DEVMKE configuration descriptor +
-   *                                1 for DEVMAC configuration descriptor +
-   *                                1 for BLESTKFW configuration descriptor +
-   *                                1 for APPFW configuration descriptor +
-   *                                1 for ADVNAME configuration descriptor +
-   *                              = 31
+   *                              = 21
    * This value doesn't take into account number of descriptors manually added
    * In case of descriptors added, please update the max_attr_record value accordingly in the next SVCCTL_InitService User Section
    */
-  max_attr_record = 31;
+  max_attr_record = 21;
 
   /* USER CODE BEGIN SVCCTL_InitService */
   /* max_attr_record to be updated if descriptors have been added */
@@ -951,9 +539,9 @@ void P2P_SERVER_Init(void)
                           UUID_TYPE_128,
                           (Char_UUID_t *) &uuid,
                           SizeMid,
-                          CHAR_PROP_READ | CHAR_PROP_NOTIFY,
+                          CHAR_PROP_READ | CHAR_PROP_WRITE,
                           ATTR_PERMISSION_NONE,
-                          GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
+                          GATT_NOTIFY_ATTRIBUTE_WRITE | GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
                           0x10,
                           CHAR_VALUE_LEN_VARIABLE,
                           &(P2P_SERVER_Context.MidCharHdle));
@@ -978,9 +566,9 @@ void P2P_SERVER_Init(void)
                           UUID_TYPE_128,
                           (Char_UUID_t *) &uuid,
                           SizeProdname,
-                          CHAR_PROP_READ | CHAR_PROP_NOTIFY,
+                          CHAR_PROP_READ,
                           ATTR_PERMISSION_NONE,
-                          GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
+                          GATT_NOTIFY_ATTRIBUTE_WRITE | GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
                           0x10,
                           CHAR_VALUE_LEN_VARIABLE,
                           &(P2P_SERVER_Context.ProdnameCharHdle));
@@ -1006,9 +594,9 @@ void P2P_SERVER_Init(void)
                           UUID_TYPE_128,
                           (Char_UUID_t *) &uuid,
                           SizeSlnm,
-                          CHAR_PROP_READ | CHAR_PROP_NOTIFY,
+                          CHAR_PROP_READ,
                           ATTR_PERMISSION_NONE,
-                          GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
+                          GATT_NOTIFY_ATTRIBUTE_WRITE | GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
                           0x10,
                           CHAR_VALUE_LEN_VARIABLE,
                           &(P2P_SERVER_Context.SlnmCharHdle));
@@ -1034,7 +622,7 @@ void P2P_SERVER_Init(void)
                           UUID_TYPE_128,
                           (Char_UUID_t *) &uuid,
                           SizeDevloc,
-                          CHAR_PROP_READ | CHAR_PROP_WRITE | CHAR_PROP_NOTIFY,
+                          CHAR_PROP_READ | CHAR_PROP_WRITE,
                           ATTR_PERMISSION_NONE,
                           GATT_NOTIFY_ATTRIBUTE_WRITE | GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
                           0x10,
@@ -1062,7 +650,7 @@ void P2P_SERVER_Init(void)
                           UUID_TYPE_128,
                           (Char_UUID_t *) &uuid,
                           SizeDs,
-                          CHAR_PROP_READ | CHAR_PROP_WRITE | CHAR_PROP_NOTIFY,
+                          CHAR_PROP_READ | CHAR_PROP_WRITE,
                           ATTR_PERMISSION_NONE,
                           GATT_NOTIFY_ATTRIBUTE_WRITE | GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
                           0x10,
@@ -1089,7 +677,7 @@ void P2P_SERVER_Init(void)
                           UUID_TYPE_128,
                           (Char_UUID_t *) &uuid,
                           SizeDevmke,
-                          CHAR_PROP_READ | CHAR_PROP_WRITE | CHAR_PROP_NOTIFY,
+                          CHAR_PROP_READ | CHAR_PROP_WRITE,
                           ATTR_PERMISSION_NONE,
                           GATT_NOTIFY_ATTRIBUTE_WRITE | GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
                           0x10,
@@ -1117,9 +705,9 @@ void P2P_SERVER_Init(void)
                           UUID_TYPE_128,
                           (Char_UUID_t *) &uuid,
                           SizeDevmac,
-                          CHAR_PROP_READ | CHAR_PROP_NOTIFY,
+                          CHAR_PROP_READ,
                           ATTR_PERMISSION_NONE,
-                          GATT_NOTIFY_ATTRIBUTE_WRITE,
+                          GATT_NOTIFY_ATTRIBUTE_WRITE | GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
                           0x10,
                           CHAR_VALUE_LEN_VARIABLE,
                           &(P2P_SERVER_Context.DevmacCharHdle));
@@ -1145,9 +733,9 @@ void P2P_SERVER_Init(void)
                           UUID_TYPE_128,
                           (Char_UUID_t *) &uuid,
                           SizeBlestkfw,
-                          CHAR_PROP_READ | CHAR_PROP_NOTIFY,
+                          CHAR_PROP_READ,
                           ATTR_PERMISSION_AUTHEN_WRITE,
-                          GATT_NOTIFY_ATTRIBUTE_WRITE | GATT_NOTIFY_WRITE_REQ_AND_WAIT_FOR_APPL_RESP,
+                          GATT_NOTIFY_ATTRIBUTE_WRITE,
                           0x10,
                           CHAR_VALUE_LEN_VARIABLE,
                           &(P2P_SERVER_Context.BlestkfwCharHdle));
@@ -1173,7 +761,7 @@ void P2P_SERVER_Init(void)
                           UUID_TYPE_128,
                           (Char_UUID_t *) &uuid,
                           SizeAppfw,
-                          CHAR_PROP_READ | CHAR_PROP_NOTIFY,
+                          CHAR_PROP_READ,
                           ATTR_PERMISSION_NONE,
                           GATT_NOTIFY_ATTRIBUTE_WRITE | GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
                           0x10,
@@ -1201,7 +789,7 @@ void P2P_SERVER_Init(void)
                           UUID_TYPE_128,
                           (Char_UUID_t *) &uuid,
                           SizeAdvname,
-                          CHAR_PROP_READ | CHAR_PROP_NOTIFY,
+                          CHAR_PROP_READ | CHAR_PROP_WRITE,
                           ATTR_PERMISSION_NONE,
                           GATT_NOTIFY_ATTRIBUTE_WRITE | GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP,
                           0x10,

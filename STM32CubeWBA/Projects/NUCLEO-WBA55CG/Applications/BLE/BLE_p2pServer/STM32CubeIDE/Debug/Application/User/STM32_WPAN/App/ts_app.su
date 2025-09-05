@@ -1,0 +1,11 @@
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:113:6:TS_Notification	32	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:225:6:TS_APP_EvtRx	16	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:262:6:TS_APP_Init	8	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:286:13:TS_Ts_test_status_SendNotification	32	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:325:13:TS_Ts_test_resp_code_SendNotification	24	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:363:13:TS_APP_Parameters_context_Init	4	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:368:6:TS_Ts_test_type_ReadUpdate	16	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:386:6:TS_Ts_pos_per_val_ReadUpdate	16	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:405:6:TS_Ts_pwm_on_time_ReadUpdate	16	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:422:6:TS_Ts_test_status_ReadUpdate	24	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/ts_app.c:441:6:TS_Ts_test_resp_code_ReadUpdate	16	static

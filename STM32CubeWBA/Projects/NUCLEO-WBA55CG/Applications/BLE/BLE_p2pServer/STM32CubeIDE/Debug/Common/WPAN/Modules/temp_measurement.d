@@ -1,6 +1,6 @@
 Common/WPAN/Modules/temp_measurement.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/temp_measurement.c \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/utilities_common.h \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/temp_measurement.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/utilities_common.h \
  ../../Core/Inc/app_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_if.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include/stm32wbaxx.h \
@@ -57,8 +57,8 @@ Common/WPAN/Modules/temp_measurement.o: \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_mem.h \
  ../../Core/Inc/utilities_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_tiny_vsnprintf.h \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/temp_measurement.h \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/adc_ctrl.h \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/temp_measurement.h \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/adc_ctrl.h \
  ../../System/Config/ADC_Ctrl/adc_ctrl_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/adc_ctrl.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_adc.h \
@@ -71,7 +71,7 @@ Common/WPAN/Modules/temp_measurement.o: \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/os_wrapper.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/pta.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ll_intf_cmn.h
-D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/utilities_common.h:
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/utilities_common.h:
 ../../Core/Inc/app_conf.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_if.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include/stm32wbaxx.h:
@@ -128,8 +128,8 @@ C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Inclu
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_mem.h:
 ../../Core/Inc/utilities_conf.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_tiny_vsnprintf.h:
-D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/temp_measurement.h:
-D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/adc_ctrl.h:
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/temp_measurement.h:
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/adc_ctrl.h:
 ../../System/Config/ADC_Ctrl/adc_ctrl_conf.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/adc_ctrl.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_adc.h:

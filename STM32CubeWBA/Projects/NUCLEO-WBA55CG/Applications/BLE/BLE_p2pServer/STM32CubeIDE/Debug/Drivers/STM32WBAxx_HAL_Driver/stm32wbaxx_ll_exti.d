@@ -1,5 +1,5 @@
 Drivers/STM32WBAxx_HAL_Driver/stm32wbaxx_ll_exti.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_exti.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Drivers/STM32WBAxx_HAL_Driver/Src/stm32wbaxx_ll_exti.c \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_exti.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include/stm32wbaxx.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include/stm32wba55xx.h \

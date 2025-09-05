@@ -1,6 +1,6 @@
 Common/WPAN/Modules/Log/log_module.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/Log/log_module.c \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/Log/log_module.h \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/Log/log_module.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/Log/log_module.h \
  ../../System/Config/Log/log_module_conf.h ../../Core/Inc/app_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_if.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include/stm32wbaxx.h \
@@ -58,7 +58,7 @@ Common/WPAN/Modules/Log/log_module.o: \
  ../../Core/Inc/utilities_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_tiny_vsnprintf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/trace/adv_trace/stm32_adv_trace.h
-D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/Log/log_module.h:
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/Log/log_module.h:
 ../../System/Config/Log/log_module_conf.h:
 ../../Core/Inc/app_conf.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_if.h:

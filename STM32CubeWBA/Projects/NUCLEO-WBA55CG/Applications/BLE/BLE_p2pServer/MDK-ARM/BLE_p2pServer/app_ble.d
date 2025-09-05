@@ -109,6 +109,11 @@ ble_p2pserver/app_ble.o: ..\STM32_WPAN\App\app_ble.c ..\Core\Inc\main.h \
   ..\..\..\..\..\..\Projects\Common\WPAN\Modules\utilities_common.h \
   ..\System\Config\Flash\simple_nvm_arbiter_conf.h \
   ..\STM32_WPAN\App\p2p_server.h ..\STM32_WPAN\App\p2p_server_app.h \
+  ..\STM32_WPAN\App\cups_er_ble.h ..\STM32_WPAN\App\cups_er_ble_app.h \
+  ..\STM32_WPAN\App\csp_er_ble.h ..\STM32_WPAN\App\csp_er_ble_app.h \
+  ..\STM32_WPAN\App\ts.h ..\STM32_WPAN\App\ts_app.h \
+  ..\STM32_WPAN\App\cs.h ..\STM32_WPAN\App\cs_app.h \
+  ..\STM32_WPAN\App\cal.h ..\STM32_WPAN\App\cal_app.h \
   ..\STM32_WPAN\App\app_bsp.h \
   ..\..\..\..\..\..\Drivers\BSP\STM32WBAxx_Nucleo\stm32wbaxx_nucleo.h \
   ..\Core\Inc\stm32wbaxx_nucleo_conf.h \

@@ -1,5 +1,5 @@
 Middlewares/STM32_WPAN/LinkLayer/ll_sys_startup.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/src/ll_sys_startup.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/src/ll_sys_startup.c \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/config/ble_basic/ll_fw_config.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/inc/ll_sys.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ll_intf.h \

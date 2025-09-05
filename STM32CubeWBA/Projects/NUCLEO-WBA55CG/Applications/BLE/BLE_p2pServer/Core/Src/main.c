@@ -32,15 +32,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-extern uint8_t Mid_Value;
-extern uint8_t Ds_Value;
-extern uint8_t DeviceLoc_Value[100];
-extern uint8_t DeviceMake_Value[100];
-extern uint8_t AdvName_Value[100];
-extern uint8_t DeviceLoc_write_flag;
-extern uint8_t Ds_write_flag;
-extern uint8_t DeviceMake_write_flag;
-extern uint8_t AdvName_write_flag;
 
 /* USER CODE END PD */
 
@@ -131,37 +122,7 @@ int main(void)
     MX_APPE_Process();
 
     /* USER CODE BEGIN 3 */
-		
-		if(DeviceLoc_write_flag==1)
-		{
-			DeviceLoc_write_flag=0;
-			LOG_INFO_APP("-- P2P DEVICLOC DATA CHANGE: %s\r\n", DeviceLoc_Value);
-			LOG_INFO_APP("-- DEVLOC NOTIFY ID : 0x%02x\r\n", CFG_TASK_SEND_NOTIF_ID_DEVLOC);
-			UTIL_SEQ_SetTask( 1<<CFG_TASK_SEND_NOTIF_ID_DEVLOC, CFG_SEQ_PRIO_0);
-		}
-		
-		if(Ds_write_flag==1){
-			Ds_write_flag=0;
-			LOG_INFO_APP("-- P2P DS DATA CHANGE: 0x%02x\r\n", Ds_Value);
-			LOG_INFO_APP("-- DS NOTIFY ID : 0x%02x\r\n", CFG_TASK_SEND_NOTIF_ID_DS);
-			UTIL_SEQ_SetTask( 1<<CFG_TASK_SEND_NOTIF_ID_DS, CFG_SEQ_PRIO_0);
-		}
-		
-		if(DeviceMake_write_flag==1)
-		{
-			DeviceMake_write_flag=0;
-			LOG_INFO_APP("-- P2P DEVICMAKE DATA CHANGE: %s\r\n", DeviceMake_Value);
-			LOG_INFO_APP("-- DEVMAKE NOTIFY ID : 0x%02x\r\n", CFG_TASK_SEND_NOTIF_ID_DEVMKE);
-			UTIL_SEQ_SetTask( 1<<CFG_TASK_SEND_NOTIF_ID_DEVMKE, CFG_SEQ_PRIO_0);
-		}
-		
-		if(AdvName_write_flag==1)
-		{
-			AdvName_write_flag=0;
-			LOG_INFO_APP("-- P2P ADVNAME DATA CHANGE: %s\r\n", AdvName_Value);
-			LOG_INFO_APP("-- ADVNAME NOTIFY ID : 0x%02x\r\n", CFG_TASK_SEND_NOTIF_ID_ADVNAME);
-			UTIL_SEQ_SetTask( 1<<CFG_TASK_SEND_NOTIF_ID_ADVNAME, CFG_SEQ_PRIO_0);
-		}
+
   }
   /* USER CODE END 3 */
 }

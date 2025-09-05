@@ -1,5 +1,5 @@
 Common/WPAN/Interface/timer_if.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Interfaces/timer_if.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Interfaces/timer_if.c \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal.h \
  ../../Core/Inc/stm32wbaxx_hal_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_dma.h \
@@ -38,7 +38,7 @@ Common/WPAN/Interface/timer_if.o: \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_uart.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_uart_ex.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_rtc.h \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Interfaces/timer_if.h \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Interfaces/timer_if.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/tim_serv/stm32_timer.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_compiler.h \
  ../../Core/Inc/utilities_conf.h ../../Core/Inc/app_conf.h \
@@ -95,7 +95,7 @@ C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_uart.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal_uart_ex.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_rtc.h:
-D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Interfaces/timer_if.h:
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Interfaces/timer_if.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/tim_serv/stm32_timer.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_compiler.h:
 ../../Core/Inc/utilities_conf.h:

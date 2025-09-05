@@ -1,5 +1,5 @@
 Middlewares/STM32_WPAN/BLE/svc_ctl.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/svc/Inc/svc_ctl.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_compiler.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_gcc.h \

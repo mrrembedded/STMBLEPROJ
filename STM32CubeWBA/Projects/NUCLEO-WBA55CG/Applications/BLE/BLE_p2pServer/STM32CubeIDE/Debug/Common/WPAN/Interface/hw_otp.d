@@ -1,5 +1,5 @@
 Common/WPAN/Interface/hw_otp.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Interfaces/hw_otp.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Interfaces/hw_otp.c \
  ../../Core/Inc/app_common.h ../../Core/Inc/app_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_if.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include/stm32wbaxx.h \

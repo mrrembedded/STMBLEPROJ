@@ -1,0 +1,3 @@
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/cups_er_ble.c:188:30:CUPS_ER_BLE_EventHandler	64	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/cups_er_ble.c:821:6:CUPS_ER_BLE_Init	56	static
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/cups_er_ble.c:1403:12:CUPS_ER_BLE_UpdateValue	32	static

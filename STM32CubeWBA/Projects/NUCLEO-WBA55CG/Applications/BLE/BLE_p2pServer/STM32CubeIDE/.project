@@ -414,6 +414,46 @@
 			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/app_bsp.c</locationURI>
 		</link>
 		<link>
+			<name>Application/User/STM32_WPAN/App/cal.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/cal.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/STM32_WPAN/App/cal_app.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/cal_app.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/STM32_WPAN/App/cs.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/cs.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/STM32_WPAN/App/cs_app.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/cs_app.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/STM32_WPAN/App/csp_er_ble.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/csp_er_ble.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/STM32_WPAN/App/csp_er_ble_app.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/csp_er_ble_app.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/STM32_WPAN/App/cups_er_ble.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/cups_er_ble.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/STM32_WPAN/App/cups_er_ble_app.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/cups_er_ble_app.c</locationURI>
+		</link>
+		<link>
 			<name>Application/User/STM32_WPAN/App/p2p_server.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/p2p_server.c</locationURI>
@@ -422,6 +462,16 @@
 			<name>Application/User/STM32_WPAN/App/p2p_server_app.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/p2p_server_app.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/STM32_WPAN/App/ts.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/ts.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/STM32_WPAN/App/ts_app.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32_WPAN/App/ts_app.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/STM32_WPAN/Target/bleplat.c</name>

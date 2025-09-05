@@ -1,6 +1,6 @@
 Utilities/stm32_timer.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Utilities/tim_serv/stm32_timer.c \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Utilities/tim_serv/stm32_timer.h \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Utilities/tim_serv/stm32_timer.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Utilities/tim_serv/stm32_timer.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_compiler.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_gcc.h \
  ../../Core/Inc/utilities_conf.h ../../Core/Inc/app_conf.h \
@@ -55,7 +55,7 @@ Utilities/stm32_timer.o: \
  ../../Core/Inc/utilities_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_mem.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_tiny_vsnprintf.h
-D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Utilities/tim_serv/stm32_timer.h:
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Utilities/tim_serv/stm32_timer.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_compiler.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Include/cmsis_gcc.h:
 ../../Core/Inc/utilities_conf.h:

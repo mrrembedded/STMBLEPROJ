@@ -1,5 +1,5 @@
 Common/WPAN/Modules/app_sys.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/app_sys.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/app_sys.c \
  ../../System/Config/LowPower/app_sys.h ../../Core/Inc/app_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_if.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include/stm32wbaxx.h \

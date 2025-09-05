@@ -1,5 +1,5 @@
 Application/User/STM32_WPAN/Target/ll_sys_if.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/ll_sys_if.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/ll_sys_if.c \
  ../../Core/Inc/main.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal.h \
  ../../Core/Inc/stm32wbaxx_hal_conf.h \
@@ -82,7 +82,7 @@ Application/User/STM32_WPAN/Target/ll_sys_if.o: \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Log/log_module.h \
  ../../System/Config/Log/log_module_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ll_intf_cmn.h \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/ll_sys_if.h \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/ll_sys_if.h \
  ../../Core/Inc/stm32_rtos.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/sequencer/stm32_seq.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/utilities_common.h \
@@ -171,7 +171,7 @@ C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Log/log_module.h:
 ../../System/Config/Log/log_module_conf.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/link_layer/ll_cmd_lib/inc/ll_intf_cmn.h:
-D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/ll_sys_if.h:
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/ll_sys_if.h:
 ../../Core/Inc/stm32_rtos.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/sequencer/stm32_seq.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/utilities_common.h:

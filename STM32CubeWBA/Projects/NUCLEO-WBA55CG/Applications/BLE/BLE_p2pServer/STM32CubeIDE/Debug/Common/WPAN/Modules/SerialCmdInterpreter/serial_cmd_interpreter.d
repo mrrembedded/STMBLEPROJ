@@ -1,5 +1,5 @@
 Common/WPAN/Modules/SerialCmdInterpreter/serial_cmd_interpreter.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/SerialCmdInterpreter/serial_cmd_interpreter.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/SerialCmdInterpreter/serial_cmd_interpreter.c \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Log/log_module.h \
  ../../System/Config/Log/log_module_conf.h ../../Core/Inc/app_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_if.h \
@@ -58,7 +58,7 @@ Common/WPAN/Modules/SerialCmdInterpreter/serial_cmd_interpreter.o: \
  ../../Core/Inc/utilities_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_tiny_vsnprintf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/trace/adv_trace/stm32_adv_trace.h \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/SerialCmdInterpreter/serial_cmd_interpreter.h
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/SerialCmdInterpreter/serial_cmd_interpreter.h
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Modules/Log/log_module.h:
 ../../System/Config/Log/log_module_conf.h:
 ../../Core/Inc/app_conf.h:
@@ -118,4 +118,4 @@ C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm3
 ../../Core/Inc/utilities_conf.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/misc/stm32_tiny_vsnprintf.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/trace/adv_trace/stm32_adv_trace.h:
-D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/Common/WPAN/Modules/SerialCmdInterpreter/serial_cmd_interpreter.h:
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/Common/WPAN/Modules/SerialCmdInterpreter/serial_cmd_interpreter.h:

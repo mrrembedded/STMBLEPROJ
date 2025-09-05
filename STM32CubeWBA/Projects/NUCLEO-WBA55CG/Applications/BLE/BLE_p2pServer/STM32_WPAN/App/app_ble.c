@@ -37,6 +37,16 @@
 #include "simple_nvm_arbiter.h"
 #include "p2p_server.h"
 #include "p2p_server_app.h"
+#include "cups_er_ble.h"
+#include "cups_er_ble_app.h"
+#include "csp_er_ble.h"
+#include "csp_er_ble_app.h"
+#include "ts.h"
+#include "ts_app.h"
+#include "cs.h"
+#include "cs_app.h"
+#include "cal.h"
+#include "cal_app.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "app_bsp.h"
@@ -177,6 +187,11 @@ static uint8_t a_BLE_CfgIrValue[16];
 static uint8_t a_BLE_CfgErValue[16];
 static BleApplicationContext_t bleAppContext;
 P2P_SERVER_APP_ConnHandleNotEvt_t P2P_SERVERHandleNotification;
+CUPS_ER_BLE_APP_ConnHandleNotEvt_t CUPS_ER_BLEHandleNotification;
+CSP_ER_BLE_APP_ConnHandleNotEvt_t CSP_ER_BLEHandleNotification;
+TS_APP_ConnHandleNotEvt_t TSHandleNotification;
+CS_APP_ConnHandleNotEvt_t CSHandleNotification;
+CAL_APP_ConnHandleNotEvt_t CALHandleNotification;
 
 static char a_GapDeviceName[] = {  'P', 'e', 'e', 'r', ' ', 't', 'o', ' ', 'P', 'e', 'e', 'r', ' ', 'S', 'e', 'r', 'v', 'e', 'r' }; /* Gap Device Name */
 
@@ -296,6 +311,11 @@ void APP_BLE_Init(void)
     LOG_INFO_APP("\n");
     LOG_INFO_APP("Services and Characteristics creation\n");
     P2P_SERVER_APP_Init();
+    CUPS_ER_BLE_APP_Init();
+    CSP_ER_BLE_APP_Init();
+    TS_APP_Init();
+    CS_APP_Init();
+    CAL_APP_Init();
     LOG_INFO_APP("End of Services and Characteristics creation\n");
     LOG_INFO_APP("\n");
 
@@ -364,8 +384,23 @@ SVCCTL_UserEvtFlowStatus_t SVCCTL_App_Notification(void *p_Pckt)
 
       /* USER CODE END EVT_DISCONN_COMPLETE_1 */
       P2P_SERVERHandleNotification.EvtOpcode = P2P_SERVER_DISCON_HANDLE_EVT;
+      CUPS_ER_BLEHandleNotification.EvtOpcode = CUPS_ER_BLE_DISCON_HANDLE_EVT;
+      CSP_ER_BLEHandleNotification.EvtOpcode = CSP_ER_BLE_DISCON_HANDLE_EVT;
+      TSHandleNotification.EvtOpcode = TS_DISCON_HANDLE_EVT;
+      CSHandleNotification.EvtOpcode = CS_DISCON_HANDLE_EVT;
+      CALHandleNotification.EvtOpcode = CAL_DISCON_HANDLE_EVT;
       P2P_SERVERHandleNotification.ConnectionHandle = p_disconnection_complete_event->Connection_Handle;
+      CUPS_ER_BLEHandleNotification.ConnectionHandle = p_disconnection_complete_event->Connection_Handle;
+      CSP_ER_BLEHandleNotification.ConnectionHandle = p_disconnection_complete_event->Connection_Handle;
+      TSHandleNotification.ConnectionHandle = p_disconnection_complete_event->Connection_Handle;
+      CSHandleNotification.ConnectionHandle = p_disconnection_complete_event->Connection_Handle;
+      CALHandleNotification.ConnectionHandle = p_disconnection_complete_event->Connection_Handle;
       P2P_SERVER_APP_EvtRx(&P2P_SERVERHandleNotification);
+      CUPS_ER_BLE_APP_EvtRx(&CUPS_ER_BLEHandleNotification);
+      CSP_ER_BLE_APP_EvtRx(&CSP_ER_BLEHandleNotification);
+      TS_APP_EvtRx(&TSHandleNotification);
+      CS_APP_EvtRx(&CSHandleNotification);
+      CAL_APP_EvtRx(&CALHandleNotification);
       /* USER CODE BEGIN EVT_DISCONN_COMPLETE */
       APP_BLE_Procedure_Gap_Peripheral(PROC_GAP_PERIPH_ADVERTISE_START_FAST);
       UTIL_TIMER_StartWithPeriod(&bleAppContext.Advertising_mgr_timer_Id, ADV_TIMEOUT_MS);
@@ -463,8 +498,23 @@ SVCCTL_UserEvtFlowStatus_t SVCCTL_App_Notification(void *p_Pckt)
           bleAppContext.connectionHandle = p_enhanced_conn_complete->Connection_Handle;
 
           P2P_SERVERHandleNotification.EvtOpcode = P2P_SERVER_CONN_HANDLE_EVT;
+          CUPS_ER_BLEHandleNotification.EvtOpcode = CUPS_ER_BLE_CONN_HANDLE_EVT;
+          CSP_ER_BLEHandleNotification.EvtOpcode = CSP_ER_BLE_CONN_HANDLE_EVT;
+          TSHandleNotification.EvtOpcode = TS_CONN_HANDLE_EVT;
+          CSHandleNotification.EvtOpcode = CS_CONN_HANDLE_EVT;
+          CALHandleNotification.EvtOpcode = CAL_CONN_HANDLE_EVT;
           P2P_SERVERHandleNotification.ConnectionHandle = p_enhanced_conn_complete->Connection_Handle;
+          CUPS_ER_BLEHandleNotification.ConnectionHandle = p_enhanced_conn_complete->Connection_Handle;
+          CSP_ER_BLEHandleNotification.ConnectionHandle = p_enhanced_conn_complete->Connection_Handle;
+          TSHandleNotification.ConnectionHandle = p_enhanced_conn_complete->Connection_Handle;
+          CSHandleNotification.ConnectionHandle = p_enhanced_conn_complete->Connection_Handle;
+          CALHandleNotification.ConnectionHandle = p_enhanced_conn_complete->Connection_Handle;
           P2P_SERVER_APP_EvtRx(&P2P_SERVERHandleNotification);
+          CUPS_ER_BLE_APP_EvtRx(&CUPS_ER_BLEHandleNotification);
+          CSP_ER_BLE_APP_EvtRx(&CSP_ER_BLEHandleNotification);
+          TS_APP_EvtRx(&TSHandleNotification);
+          CS_APP_EvtRx(&CSHandleNotification);
+          CAL_APP_EvtRx(&CALHandleNotification);
           /* USER CODE BEGIN HCI_EVT_LE_ENHANCED_CONN_COMPLETE */
           /* The connection is done, there is no need anymore to schedule the LP ADV */
           UTIL_TIMER_Stop(&(bleAppContext.Advertising_mgr_timer_Id));
@@ -507,8 +557,23 @@ SVCCTL_UserEvtFlowStatus_t SVCCTL_App_Notification(void *p_Pckt)
           bleAppContext.connectionHandle = p_conn_complete->Connection_Handle;
 
           P2P_SERVERHandleNotification.EvtOpcode = P2P_SERVER_CONN_HANDLE_EVT;
+          CUPS_ER_BLEHandleNotification.EvtOpcode = CUPS_ER_BLE_CONN_HANDLE_EVT;
+          CSP_ER_BLEHandleNotification.EvtOpcode = CSP_ER_BLE_CONN_HANDLE_EVT;
+          TSHandleNotification.EvtOpcode = TS_CONN_HANDLE_EVT;
+          CSHandleNotification.EvtOpcode = CS_CONN_HANDLE_EVT;
+          CALHandleNotification.EvtOpcode = CAL_CONN_HANDLE_EVT;
           P2P_SERVERHandleNotification.ConnectionHandle = p_conn_complete->Connection_Handle;
+          CUPS_ER_BLEHandleNotification.ConnectionHandle = p_conn_complete->Connection_Handle;
+          CSP_ER_BLEHandleNotification.ConnectionHandle = p_conn_complete->Connection_Handle;
+          TSHandleNotification.ConnectionHandle = p_conn_complete->Connection_Handle;
+          CSHandleNotification.ConnectionHandle = p_conn_complete->Connection_Handle;
+          CALHandleNotification.ConnectionHandle = p_conn_complete->Connection_Handle;
           P2P_SERVER_APP_EvtRx(&P2P_SERVERHandleNotification);
+          CUPS_ER_BLE_APP_EvtRx(&CUPS_ER_BLEHandleNotification);
+          CSP_ER_BLE_APP_EvtRx(&CSP_ER_BLEHandleNotification);
+          TS_APP_EvtRx(&TSHandleNotification);
+          CS_APP_EvtRx(&CSHandleNotification);
+          CAL_APP_EvtRx(&CALHandleNotification);
           /* USER CODE BEGIN HCI_EVT_LE_CONN_COMPLETE */
           /* The connection is done, there is no need anymore to schedule the LP ADV */
           UTIL_TIMER_Stop(&(bleAppContext.Advertising_mgr_timer_Id));

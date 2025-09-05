@@ -1,6 +1,6 @@
 Application/User/STM32_WPAN/Target/host_stack_if.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/host_stack_if.c \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/host_stack_if.h \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/host_stack_if.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/host_stack_if.h \
  ../../Core/Inc/app_conf.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_if.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include/stm32wbaxx.h \
@@ -76,7 +76,7 @@ Application/User/STM32_WPAN/Target/host_stack_if.o: \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/stack/include/auto/ble_raw_api.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Middlewares/ST/STM32_WPAN/ble/stack/include/auto/ble_types.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Utilities/sequencer/stm32_seq.h
-D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/host_stack_if.h:
+D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/host_stack_if.h:
 ../../Core/Inc/app_conf.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Projects/Common/WPAN/Interfaces/hw_if.h:
 C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/CMSIS/Device/ST/STM32WBAxx/Include/stm32wbaxx.h:

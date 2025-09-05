@@ -1,5 +1,5 @@
 Application/User/Core/stm32wbaxx_it.o: \
- D:/Companies/Migration/STMBLEEVK/STMBLEPROJ/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/Core/Src/stm32wbaxx_it.c \
+ D:/Companies/Migration/STMBLEEVK/STM32CubeWBA/Projects/NUCLEO-WBA55CG/Applications/BLE/BLE_p2pServer/Core/Src/stm32wbaxx_it.c \
  ../../Core/Inc/main.h \
  C:/Users/Rajesh/STM32Cube/Repository/STM32Cube_FW_WBA_V1.7.0/Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_hal.h \
  ../../Core/Inc/stm32wbaxx_hal_conf.h \

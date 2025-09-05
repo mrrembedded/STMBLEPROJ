@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>BLE_p2pServer\</OutputDirectory>
-          <OutputName>BLE_p2pServer_2507</OutputName>
+          <OutputName>BLE_p2pServer_uuid_2408</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -414,6 +414,11 @@
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32wbaxx_hal_msp.c</FilePath>
             </File>
+            <File>
+              <FileName>user_utils.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\user_utils.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -483,6 +488,56 @@
               <FileName>p2p_server_app.c</FileName>
               <FileType>1</FileType>
               <FilePath>../STM32_WPAN/App/p2p_server_app.c</FilePath>
+            </File>
+            <File>
+              <FileName>cups_er_ble.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_WPAN\App\cups_er_ble.c</FilePath>
+            </File>
+            <File>
+              <FileName>cups_er_ble_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_WPAN\App\cups_er_ble_app.c</FilePath>
+            </File>
+            <File>
+              <FileName>csp_er_ble.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_WPAN\App\csp_er_ble.c</FilePath>
+            </File>
+            <File>
+              <FileName>csp_er_ble_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_WPAN\App\csp_er_ble_app.c</FilePath>
+            </File>
+            <File>
+              <FileName>ts.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_WPAN\App\ts.c</FilePath>
+            </File>
+            <File>
+              <FileName>ts_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_WPAN\App\ts_app.c</FilePath>
+            </File>
+            <File>
+              <FileName>cs.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_WPAN\App\cs.c</FilePath>
+            </File>
+            <File>
+              <FileName>cs_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_WPAN\App\cs_app.c</FilePath>
+            </File>
+            <File>
+              <FileName>cal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_WPAN\App\cal.c</FilePath>
+            </File>
+            <File>
+              <FileName>cal_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\STM32_WPAN\App\cal_app.c</FilePath>
             </File>
           </Files>
         </Group>
